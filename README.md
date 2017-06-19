@@ -1,2 +1,2 @@
-# E14 Class notes
+# E14 Class Notes
 Class notes for cohort E14

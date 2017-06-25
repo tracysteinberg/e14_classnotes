@@ -1,6 +1,6 @@
-#Getting The Most Out Of This Course
+# Getting The Most Out Of This Course
 
-##Welcome!
+## Welcome!
 
 Here are a few tips for you as you embark on your CodeClan journey:
  
@@ -13,7 +13,7 @@ Here are a few tips for you as you embark on your CodeClan journey:
 - Simply by being here you are shifting your normal way of learning to an immersive one. This environment is perfect for deep work and learning. For example, to finish the final Harry Potter book, JK Rowling booked herself into the Balmoral hotel to be in a different environment. This switch can help your brain shift into a different mode.
 
 
-##Your Learning
+## Your Learning
 
 - Code alongs: We do quite a lot of codealongs. If we’re going too fast, just say. It's not a problem! Please ask questions as we go. Talking through your thought process benefits everyone. Be comfortable with rubber ducking in front of your classmates. And be compassionate to anyone who is rubber ducking. Be patient and helpful. 
 
@@ -36,7 +36,7 @@ Here are a few tips for you as you embark on your CodeClan journey:
   - An ad-hoc code along together
   - Mondays will be one-to-one homework reviews
 
-##Dedication & Mindset
+## Dedication & Mindset
 
  - [The power of believing that you can improve](https://www.youtube.com/watch?v=wh0OS4MrN3E)
 - [Growth vs Fixed Mindset](https://www.youtube.com/watch?v=KUWn_TJTrnU)

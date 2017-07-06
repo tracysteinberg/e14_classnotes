@@ -210,6 +210,8 @@ end
 
 [Ruby's Array docs](https://ruby-doc.org/core-2.4.1/Array.html) have an example of using an `.each` method on an array.
 
+...but if you read the docs, you won't see any mention of a `.map` function. So where's it coming from?
+
 By scrolling down the page, you will see that Ruby Arrays have an "Included Module" called [Enumerable](https://ruby-doc.org/core-2.4.1/Enumerable.html). This is a collection of functionality that is available to pretty much all of the collection classes in Ruby. So our arrays can also use all of these.
 
 Some are more useful than others, and these are probably the ones you'll use most often in Ruby:

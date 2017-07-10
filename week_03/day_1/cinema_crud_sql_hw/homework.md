@@ -24,7 +24,7 @@ Use the supplied data as the source of data to answer the questions.  Copy the S
 
 1. Return ALL the data in the 'movies' table.
 2. Return ONLY the name column from the 'people' table
-3.Oops! Someone at CodeClan spelled Del's name wrong! Change it to reflect the proper spelling.
+3. Oops! Someone at CodeClan spelled Del's name wrong! Change it to reflect the proper spelling.
 4. Return ONLY your name from the 'people' table.
 5. The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 6. Create a new entry in the 'people' table with the name of one of the instructors.

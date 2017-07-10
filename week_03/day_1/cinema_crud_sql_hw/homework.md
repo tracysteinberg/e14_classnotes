@@ -18,7 +18,7 @@ Next, run the provided SQL script to populate your database:
 psql -d marvel -f marvel.sql
 ```
 
-Use the supplied data as the source of data to answer the questions.  Copy the SQL command you have used to get the answer, and paste it below the question, along with the result they gave.
+Use the supplied data as the source of data to answer the questions.  Copy the SQL command you have used to get the answer, and paste it below the question.
 
 ## Questions
 

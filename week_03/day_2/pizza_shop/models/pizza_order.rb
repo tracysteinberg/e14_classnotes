@@ -35,13 +35,6 @@ class PizzaOrder
     db.close
   end
 
-  def self.delete_all()
-    db = PG.connect( { dbname: 'pizza_shop', host: 'localhost' } )
-    sql = "DELETE FROM pizza_orders"
-    db.exec(sql)
-    db.close
-  end
-
   def delete()
     db = PG.connect( { dbname: 'pizza_shop', host: 'localhost' } )
     sql = "DELETE FROM pizza_orders where id = #{@id}"
@@ -50,7 +43,7 @@ class PizzaOrder
   end
 
   def self.delete_all()
-     db = PG.connect( { dbname: 'pizza_shop', host: 'localhost' } )
+    db = PG.connect( { dbname: 'pizza_shop', host: 'localhost' } )
     sql = "DELETE FROM pizza_orders"
     db.exec(sql)
     db.close

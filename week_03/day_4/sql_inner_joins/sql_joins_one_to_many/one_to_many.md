@@ -68,7 +68,7 @@ INNER JOIN syntax is pretty weird, but hang in there and we'll be okay.
 
 Let's see if we can list all of the Jedi with their relevant lightsaber data.
 
-STEP ONE: Select the columns from the left hand table, using an alias.
+STEP ONE: Select the columns from the left hand table -
 
 ```sql
 -- queries.sql

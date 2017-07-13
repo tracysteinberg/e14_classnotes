@@ -1,6 +1,6 @@
+DROP TABLE bitings;
 DROP TABLE zombies;
 DROP TABLE victims;
-DROP TABLE bitings;
 
 CREATE TABLE zombies
 (

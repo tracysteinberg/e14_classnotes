@@ -207,13 +207,20 @@ One common use of these URL parameters is to specify a certain piece of data we 
 #app.rb
 
 get '/friends/:number' do
-  friends = ["Joey", "Phoebe", "Monica", "Chandler", "Rachel", "Ross"]
-  index = params["number"].to_i - 1
-  return friends[index]
+  friends = {
+    "1" => "Joey", 
+    "2" => "Phoebe", 
+    "3" => "Monica", 
+    "4" => "Chandler", 
+    "5" => "Rachel", 
+    "6" => "Ross"
+  }
+  friends_key = params[:number]
+  return friends[ friends_key ]
 end
 ```
 
-As you see we can use the number param to find an indexed item in an array. More often we will pass in an ID that relates to an item in a database.
+As you see we can use the number param as a key to find an value in the friends hash. Note what this demonstrates - that params values are strings. More often we will pass in an ID that relates to an item in a database. 
 
 ## Beware of the type in params hash
 

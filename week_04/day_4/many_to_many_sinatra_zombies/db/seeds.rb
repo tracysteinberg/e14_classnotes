@@ -15,49 +15,49 @@ zombie1 = Zombie.new({
 zombie1.save()
 
 zombie2 = Zombie.new({
-  'name' => "Sandy",
+  'name' => "Alex",
   'type' => 'Runner'
 })
 
 zombie2.save()
 
 zombie3 = Zombie.new({
-  'name' => "Darren",
+  'name' => "Keith",
   'type' => 'Witch'
 })
 
 zombie3.save()
 
 zombie4 = Zombie.new({
-  'name' => "Zsolt",
+  'name' => "Stewart",
   'type' => 'Tank'
 })
 
 zombie4.save()
 
 victim1 = Victim.new({
-  'name' => "Joo",
+  'name' => "Stacey",
   'run_speed' => 12
 })
 
 victim1.save()
 
 victim2 = Victim.new({
-  'name' => "Tristan",
+  'name' => "Ross",
   'run_speed' => 11
 })
 
 victim2.save()
 
 victim3 = Victim.new({
-  'name' => "Allegra",
+  'name' => "Tracy",
   'run_speed' => 15
 })
 
 victim3.save()
 
 victim4 = Victim.new({
-  'name' => "Paule",
+  'name' => "Matthew",
   'run_speed' => 30
 })
 

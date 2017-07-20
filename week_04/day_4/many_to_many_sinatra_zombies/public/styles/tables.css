@@ -14,3 +14,11 @@ th {
 table {
   border-collapse: collapse;
 }
+
+table a {
+  text-decoration: underline;
+}
+
+table a:visited {
+  text-decoration: underline;
+}

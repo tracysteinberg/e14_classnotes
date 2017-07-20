@@ -8,7 +8,7 @@
   </tr>
   <% for zombie in @zombies %>
   <tr>
-    <td><%= zombie.name %></td>
+    <td><a href="/zombies/<%= zombie.id %>"><%= zombie.name %></a></td>
     <td>|</td>
     <td><%= zombie.type %></td>
   </tr>

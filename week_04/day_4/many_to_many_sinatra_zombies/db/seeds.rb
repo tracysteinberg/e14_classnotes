@@ -89,3 +89,5 @@ biting4 = Biting.new({
 })
 
 biting4.save()
+
+puts zombie1.victims

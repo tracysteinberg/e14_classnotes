@@ -1,0 +1,26 @@
+<h1>Zombie Details</h1>
+
+<h2>Name: <%= @zombie.name %></h2>
+<h2>Type: <%= @zombie.type %></h2>
+
+<hr>
+<table>
+
+  <tr>
+    <th></th>
+    <th>Victims</th>
+    <th></th>
+  </tr>
+  <tr>
+    <th>Name</th>
+    <th></th>
+    <th>Speed</th>
+  </tr>
+  <% for victim in @victims %>
+  <tr>
+    <td><%= victim.name %></td>
+    <td>|</td>
+    <td><%= victim.run_speed %></td>
+  </tr>
+  <% end %>
+</table>

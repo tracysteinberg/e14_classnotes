@@ -9,13 +9,13 @@ require_relative( '../models/action.rb' )
 get '/bitings' do
   @bitings = Biting.all
   @actions = Action.all
-  erb ( :"bitings/index" )
+  erb( :"bitings/index" )
 end
 
 get '/bitings/new' do
   @victims = Victim.all
   @zombies = Zombie.all
-  erb(:"bitings/new")
+  erb( :"bitings/new" )
 end
 
 post '/bitings' do

@@ -4,5 +4,5 @@ require_relative( '../models/zombie.rb' )
 
 get '/zombies' do
   @zombies = Zombie.all()
-  erb ( :"zombies/index" )
+  erb( :"zombies/index" )
 end

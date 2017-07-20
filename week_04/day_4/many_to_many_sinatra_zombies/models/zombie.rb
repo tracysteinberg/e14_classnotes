@@ -47,4 +47,15 @@ class Zombie
     SqlRunner.run( sql, values )
   end
 
+  def victims
+    sql = "SELECT victims.* FROM victims 
+           INNER JOIN bitings on bitings.victim_id = victims.id 
+           WHERE bitings.zombie_id = $1"
+    values = [@id]
+    results = SqlRunner.run(sql, values)
+    victims = results.map { |victim| Victim.new( victim ) }
+    return victims
+  end
+
+
 end

@@ -28,7 +28,7 @@ public class GameTest {
     Mockito.when(spyDice.roll()).thenReturn(3);
 
     boolean result = game.nextTurn();
-  assertEquals(true, result);
+    assertEquals(true, result);
   }
 
   @Test
@@ -37,6 +37,7 @@ public class GameTest {
     game = new Game(diceMock);
 
     game.nextTurn();
+    
     assertEquals(1, game.getTurnCount());
     verify(diceMock, times(1)).roll();  
   }

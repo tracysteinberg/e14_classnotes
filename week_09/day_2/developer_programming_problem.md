@@ -73,17 +73,15 @@ should be printed after the position and orientation.
 
 Sample Input
 
-> 5 3
-1 1 E
+> 5 3\s\s
+1 1 E\s\s
 RFRFRFRF
 
-> 3 2 N
+> 3 2 N\s\s
+FRRFLLFFRRFLL
 
-> FRRFLLFFRRFLL
-
-> 0 3 W
-
-> LLFFFLFLFL
+> 0 3 W\s\s
+LLFFFLFLFL
 
 
 Sample Output

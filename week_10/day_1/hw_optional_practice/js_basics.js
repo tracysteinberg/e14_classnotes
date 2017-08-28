@@ -62,7 +62,7 @@ var animals = ["raccoon","hedgehog","mouse","gerbil"];
 
 // Section 7
 
-var accounts = [10000, 50.00, 50.76, 1.00];
+var accounts = [50.00, 30.00, 10000.00, 50.76, 1.00];
 
 // Write functions for the following tasks!
 // 7.1 Calculate the total cash in accounts

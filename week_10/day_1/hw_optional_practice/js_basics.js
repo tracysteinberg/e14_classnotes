@@ -59,3 +59,13 @@ var animals = ["raccoon","hedgehog","mouse","gerbil"];
 // 6.2 Loop over the array and write to the console using a "while"
 // 6.3 Loop again using a "for" with a counter
 // 6.4 Loop again using a "for of"
+
+// Section 7
+
+var accounts = [10000, 50.00, 50.76, 1.00];
+
+// Write functions for the following tasks!
+// 7.1 Calculate the total cash in accounts
+// 7.2 Find the index of the account with the largest balance
+// 7.3 Find the index of the account with the smallest balance
+// 7.4 Calculate the average bank account value

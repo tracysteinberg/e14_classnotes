@@ -46,12 +46,12 @@
 // Section 4
 
 // 4.1 Write a statement that writes "hello" to the console if it's true and "bye" if it is false.
-  // if (shouldGreet) {
-  //   console.log('Hello!');
-  // }
-  // else {
-  //   console.log('Bye!');
-  // }
+  if (shouldGreet) {
+    console.log('Hello!');
+  }
+  else {
+    console.log('Bye!');
+  }
 
 
 // Section 5

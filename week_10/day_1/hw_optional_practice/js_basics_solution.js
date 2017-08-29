@@ -120,8 +120,8 @@ getTotalBalance(accounts);
 
 // 7.2 Find the index of the account with the largest balance
 
-// we shouldn't default to 0 in case all amounts are negative.
 function getLargestBalance(accounts){
+  // we shouldn't default to 0 in case all amounts are negative.
   var largest = accounts[0];
   for (amount of accounts){
     if ( amount > largest ) largest = amount;

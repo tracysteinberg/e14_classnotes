@@ -12,7 +12,7 @@ describe('WaterBottle', function () {
     assert.strictEqual(bottle.volume, 0);
   });
 
-  it('should have a hydrationValue of 10', function () {
+  xit('should have a hydrationValue of 10', function () {
     assert.strictEqual(bottle.hydrationValue, 10);
   });
 

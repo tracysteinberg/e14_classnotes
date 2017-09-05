@@ -296,7 +296,7 @@ And let's write a function that interates through our array of markers and adds 
 
   // REMEMBER COMMA ON PREVIOUS LINE
 
-  MapWrapper.prototype.bounceMarker = function(){
+  MapWrapper.prototype.bounceMarkers = function(){
     this.markers.forEach(function(marker) {
       marker.setAnimation(google.maps.Animation.BOUNCE)
     })

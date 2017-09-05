@@ -179,7 +179,7 @@ Let's make a new function on our MapWrapper prototype.
 ```js
 //mapWrapper.js
 
-MapWrapper.prototype.addMarker = function() {
+MapWrapper.prototype.addMarker = function(coords) {
     var marker = new google.maps.Marker({
       position: coords,
       map: this.googleMap
@@ -296,7 +296,7 @@ And let's write a function that interates through our array of markers and adds 
 
   // REMEMBER COMMA ON PREVIOUS LINE
 
-  MapWrapper.prototype.bounceMarker = function(){
+  MapWrapper.prototype.bounceMarkers = function(){
     this.markers.forEach(function(marker) {
       marker.setAnimation(google.maps.Animation.BOUNCE)
     })

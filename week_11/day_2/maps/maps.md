@@ -179,7 +179,7 @@ Let's make a new function on our MapWrapper prototype.
 ```js
 //mapWrapper.js
 
-MapWrapper.prototype.addMarker = function() {
+MapWrapper.prototype.addMarker = function(coords) {
     var marker = new google.maps.Marker({
       position: coords,
       map: this.googleMap

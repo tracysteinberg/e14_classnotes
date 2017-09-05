@@ -1,0 +1,14 @@
+#main-map {
+  /* width:80vw;
+  height:80vh; 
+  min-width: 500px;
+  min-height: 500px; */
+  width: 500px;
+  height: 500px;
+}
+
+#button-bounce-markers{
+  width: 10vw;
+  height: 5vh;
+  font-size: 2vw;
+}

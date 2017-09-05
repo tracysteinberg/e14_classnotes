@@ -9,7 +9,7 @@ Maps and geolocation has become a big thing - almost every website you visit wil
 
 # Google maps
 
-> Hand out start point
+> Use the start point in your day_2 classnotes -> maps/map_start_point
 
 First we need to include a link to the script that gives us access to the Google Maps API. Let's add it in the head tag. Google Maps is a library type of API, in that it gives us a library of code which creates an object with useful methods for us to interact with to build things. 
 

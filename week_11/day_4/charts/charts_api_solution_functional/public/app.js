@@ -31,7 +31,8 @@ var loadCountryCharts = function(responseText) {
 
   countryRegionData.data = countryRegionLabels.map(function(regionLabel){
     return countries.filter(function(country) {
-      return country.region === regionLabel }).length
+      return country.region === regionLabel 
+    }).length
   })
   
   new PieChart("Country Populations", countryPopulationData);

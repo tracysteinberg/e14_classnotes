@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Country App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src='country_data.js'></script>
+    <script src='country_details_view.js'></script>
+    <script src='country_select_view.js'></script>
+    <script src='index.js'></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Countries</h1>
+       
+      <div class="container">
+          <!--Row with two columns divided in 1:3 ratio-->
+          <div class="row">
+              <div class="col-sm-6 dropdown">
+                <!--Column left-->
+                <select id="country-list" class="dropdown"></select>
+              </div>
+              <div class="col-sm-6" id="country-details"><!--Column right--></div>
+          </div>
+      </div>
+
+    </div>
+  </body>
+</html>

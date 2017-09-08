@@ -20,7 +20,6 @@ In particular we recommend:
   - REST countries: https://restcountries.eu/
   - Pokemon API: http://pokeapi.co/
   - Football Data: http://api.football-data.org/index - Make sure you sign up for a Free API key to use in your requests otherwise you may get CORS errors in Chrome.
-  - OMDB - Film info: http://www.omdbapi.com/ - no key needed.
   - News API: https://newsapi.org/ - News stories from several different sources
   - Giphy API: https://github.com/Giphy/GiphyAPI - fun gifs! Free key provided. 
   - Open Weather Map: http://openweathermap.org/api - Free API key on sign up.

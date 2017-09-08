@@ -26,4 +26,5 @@ In particular we recommend:
   - Open Weather Map: http://openweathermap.org/api - Free API key on sign up.
   - Harry Potter: http://hp-api.herokuapp.com/
   - MusixMatch: https://developer.musixmatch.com/ - get info on music charts, artists and their music, lyrics. Free API key when you sign up.
+  - Spotify - https://developer.spotify.com/web-api/ - Does use OAuth - but I've written some notes here that would help - https://gist.github.com/abazlinton/c4c51f79475efb083a6d023e40e34d93
 
